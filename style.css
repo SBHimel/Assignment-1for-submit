@@ -155,12 +155,12 @@ body {
 .notes-title{
     font-weight: 700;
     font-size: 48px;
-    margin-bottom: -5px;
 }
 .notes-description{
     color: rgba(98, 115, 130, 1);
     font-size: 16px;
-    margin-top: -10px;
+    margin-top: -20px;
+    margin-bottom: 37px;
 }
 
 /* All box */
@@ -195,3 +195,6 @@ body {
     height: 300px;
     box-shadow: 0 -10px 20px rgba(0,0,0,0.3);
 }
+
+/* 2nd sectiion */
+
