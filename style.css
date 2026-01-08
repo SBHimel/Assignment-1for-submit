@@ -177,10 +177,15 @@ body {
 }
 .all-box{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
     align-items: center;
     margin: 20px 120px;
     gap: 24px;
+    width: 1360px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
 }
 .box {
     /* border: 2px solid black; */
@@ -198,3 +203,29 @@ body {
 
 /* 2nd sectiion */
 
+.capture-idea{
+    display: flex;
+    align-items: center;
+    color: #001931;
+}
+.mini{
+    color: #469165;
+}
+.pic-title{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.picture-text{
+    
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 120px;
+    gap: 80px;
+    width: 1360px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
