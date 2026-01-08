@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+/* header section */
+
+/* share  */
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    /* browser er default body margin remove করার জন্য coding shuru korar age sobsomoy eta diye shuru kora ucit */
+}
+
+.display-flex {
+    display: flex;
+}
+
+.orange {
+    color: orange;
+}
+
+.skyblou {
+    color: rgba(1, 172, 253, 1);
+}
+
+.sky {
+    color: rgba(5, 212, 223, 1);
+}
+
+/* Navber design  */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 120px;
+}
+
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.navlink {
+    gap: 32px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-btn {
+    border-radius: 6px;
+    width: 197px;
+    height: 50px;
+    background-color: rgba(70, 145, 101, 1);
+    margin: o auto;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3)
+}
+.nav-btn:hover {
+    background-color: orange;
+    cursor: pointer;
+    /*  হাতের কার্সর হবে */
+}
+
+
+ /* bg-img */
+
+.bg-img{
+    background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    height: 674px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.container{
+   
+}
+.early-btn{
+    color: rgba(70, 145, 101, 1);
+
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+}
+.early-btn:hover{
+    background-color: orange;
+    cursor:progress;
+}
+.title{
+    color: white;
+    font-weight: 700;
+    font-size: 72px;
+}
+.description{
+    color: white;
+    font-size: 18px;
+    margin-top: -27px;
+    margin-bottom: 30px;
+}
+.hide{
+    visibility: hidden;
+}
+.extra{
+    width: 251px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.see{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+     box-shadow: 0 0 10px rgba(255,255,255,0.8);
+}
+.see:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(233, 139, 139, 0.8);
+}
+.early-center{
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    margin-bottom: -20px;
+}
+
+/* Main section */
+
+.notes-title{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: -5px;
+}
+.notes-description{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+/* All box */
+.box-img{
+    width: 60px;
+    height: 60px;
+}
+.box-title{
+    font-weight: 600;
+    font-size: 24px;
+}
+.size{
+    margin-top: -15px;
+}
+.all-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 120px;
+    gap: 24px;
+}
+.box {
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* up–down */
+    align-items: center;
+    width: 322px;
+    height: 300px;
+    box-shadow: 0 -10px 20px rgba(0,0,0,0.3);
+}
